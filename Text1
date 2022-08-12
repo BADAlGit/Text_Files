@@ -1,0 +1,45 @@
+
+
+FRONTEND:
+	- Where are my users? { web, android, ios, desktop. IOT} 
+		-  For now:- web, in future: Mobile
+	- WEB: 	
+		-- programming languge: JAVASCRIPT, we want this app in scale, so we are not only using Vanilla JS but also TypeScript
+		- UI Framework: ReactJS { bacasue it's most powerful, on top of that we can also built mobile app using React Native}
+ 		- State Management Library: Redux { Because everybody hate, not because it allows lot more boilerplate code }
+		- CSS { Sucks }:- Tailwind CSS
+			- CSS PreProcessor: SASS { it provides nesting, mixins, variables, functions }
+			- PostCSS:- { to prepare our CSS in production ( PURGE, AUTOPREFIX, MINIFY )}
+		Module Bundler:-  WebPack { takes our raw JS file and combines into a single bundle that used in the browser }
+
+BACKEND:
+	- Database:
+		- NoSQL: MongoDB
+		- Relational Database: MySQL
+		- Redis { it's fast, because its often stores data in the memory as opposed to disk }
+	- Server Side Runtime: 
+		- NodeJS
+			- For handling server side web applications: NextJS { framework, and it's also support TS } 
+	- Object Relational Mapper:
+		- TypeORM
+	- Web Server: NGINX or APACHE
+
+Container: 
+	- Docker 
+	- For Multiple Container:	 Kubernetes { optional }
+
+- Cloud Providers:	AWS and Terraform { for better infrastructure AS CODE }
+- Github: set a cotinuous integretion pipeline and automatically testing and redeploy our code any time we push and update the repository }
+
+APIs:
+	- GraphQL
+		-- Apollo { provide data in frontend and backend to perform query in Graphql }
+	- For Payments:	
+		-- Stripe { provide test case for both the frontend and backend to collect payments }
+	- For User Authentication: 
+		-- Google OAuth 
+		-- JWT { fot Authorization and Authentication  ( optional ) }
+	- Preventing Dick Pick:
+		-- AWS Recognition
+	- For Chat:	
+		-- Twilio
