@@ -21,3 +21,8 @@
 
 # WebSockets + WebRTC = 👍
 
+## So what exactly is sent between the two clients and how is it sent?
+
+> ### SDP's: A session Description Protocol (SDP), is an object containing information about the session connection such as the codec. address. media type, audio and video and so on.
+
+> ### ICE Candidates: An Ice
